@@ -96,8 +96,11 @@
     display: none;
     box-sizing: border-box;
     padding: 35px 30px;
-    &_active {
-        display: block;
+    @media(max-width: 870px) {
+        display: none;
+        &_active {
+            display: block;
+        }
     }
     @media(max-width: 400px) {
         padding-left: calc(400px - 100vw + 30px);
@@ -120,8 +123,11 @@
     left: 0;
     background-color: rgba(0, 0, 0, 0.3);
     display: none;
-    &_active {
-        display: block;
+    @media(max-width: 870px) {
+        display: none;
+        &_active {
+            display: block;
+        }
     }
 }
 
