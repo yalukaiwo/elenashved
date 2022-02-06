@@ -1,9 +1,15 @@
 .sidemenu__holder {
-    width: 400px;
+    min-width: 370px;
+    width: 370px;
     position: relative;
+    @media(max-width: 1340px) {
+        min-width: 300px;
+        width: 300px;
+    }
     @media(max-width: 870px) {
         display: none;
     }
+    
 }
 
 .sidemenu {
@@ -11,14 +17,17 @@
     box-sizing: border-box;
     overflow-y: auto;
     height: 100%;
-    width: 400px;
+    width: 370px;
     position: fixed;
     -webkit-box-shadow: 5px 0px 5px -5px rgba(34, 60, 80, 0.35);
     -moz-box-shadow: 5px 0px 5px -5px rgba(34, 60, 80, 0.35);
     box-shadow: 5px 0px 5px -5px rgba(34, 60, 80, 0.35);
+    @media(max-width: 1340px) {
+        width: 300px;
+    }
     @media(max-width: 870px) {
         display: none;
-    }
+    }   
 }
 
 .gallery_nav {
@@ -33,4 +42,6 @@
     color: #0e0e10;
     font-family: "Diia", sans-serif;
     font-weight: 400;
+    line-height: 22px;
 }
+
