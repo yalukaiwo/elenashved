@@ -23,7 +23,7 @@ export default function Publications() {
               responsibility.{" "}
               <span className={styles.dn_1035}>
                 This topic had not been widely discussed until pandemia COVID-19
-                focused peoples' attention on medical problems. This inspired me
+                focused peoples&apos; attention on medical problems. This inspired me
                 to create «Behind the Red Line» series, which is dedicated to
                 the work in operating block, closed object, which entrance is
                 marked by the Red Line.
@@ -61,7 +61,7 @@ export default function Publications() {
               responsibility.{" "}
               <span className={styles.dn_1035}>
                 This topic had not been widely discussed until pandemia COVID-19
-                focused peoples' attention on medical problems. This inspired me
+                focused peoples&apos; attention on medical problems. This inspired me
                 to create «Behind the Red Line» series, which is dedicated to
                 the work in operating block, closed object, which entrance is
                 marked by the Red Line.
@@ -97,7 +97,7 @@ export default function Publications() {
               responsibility.{" "}
               <span className={styles.dn_1035}>
                 This topic had not been widely discussed until pandemia COVID-19
-                focused peoples' attention on medical problems. This inspired me
+                focused peoples&apos; attention on medical problems. This inspired me
                 to create «Behind the Red Line» series, which is dedicated to
                 the work in operating block, closed object, which entrance is
                 marked by the Red Line.
@@ -133,7 +133,7 @@ export default function Publications() {
               responsibility.{" "}
               <span className={styles.dn_1035}>
                 This topic had not been widely discussed until pandemia COVID-19
-                focused peoples' attention on medical problems. This inspired me
+                focused peoples&apos; attention on medical problems. This inspired me
                 to create «Behind the Red Line» series, which is dedicated to
                 the work in operating block, closed object, which entrance is
                 marked by the Red Line.
