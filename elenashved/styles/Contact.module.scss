@@ -1,0 +1,30 @@
+.contact__wrapper {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact__title {
+    font-family: 'Lexend', sans-serif;
+    font-size: 22px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+    &__text {
+        font-family: 'Lexend', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        color: #1f1f23;
+        text-decoration: none;
+        line-height: 24px;
+        @media(max-width: 560px) {
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+}

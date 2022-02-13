@@ -45,28 +45,15 @@ export default function Header() {
                   </Link>
                 </li>
                 <li className={styles.nav__link}>
-                  <Link href="/gallery">
+                  <Link href="/series">
                     <a
                       className={`${styles.nav__link_a} ${
-                        router.pathname === "/gallery"
+                        router.pathname === "/series"
                           ? styles.nav__link_a__active
                           : ""
                       }`}
                     >
-                      Gallery
-                    </a>
-                  </Link>
-                </li>
-                <li className={styles.nav__link}>
-                  <Link href="/books">
-                    <a
-                      className={`${styles.nav__link_a} ${
-                        router.pathname === "/books"
-                          ? styles.nav__link_a__active
-                          : ""
-                      }`}
-                    >
-                      Books
+                      Series
                     </a>
                   </Link>
                 </li>
@@ -142,34 +129,18 @@ export default function Header() {
                   </Link>
                 </li>
                 <li className={styles.nav__link}>
-                  <Link href="/gallery">
+                  <Link href="/series">
                     <a
                       className={`${styles.nav__link_a} ${
                         styles.burger__link
                       } ${
-                        router.pathname === "/gallery"
+                        router.pathname === "/series"
                           ? styles.nav__link_a__active
                           : ""
                       }`}
                       onClick={closeBurger}
                     >
-                      Gallery
-                    </a>
-                  </Link>
-                </li>
-                <li className={styles.nav__link}>
-                  <Link href="/books">
-                    <a
-                      className={`${styles.nav__link_a} ${
-                        styles.burger__link
-                      } ${
-                        router.pathname === "/books"
-                          ? styles.nav__link_a__active
-                          : ""
-                      }`}
-                      onClick={closeBurger}
-                    >
-                      Books
+                      Series
                     </a>
                   </Link>
                 </li>
@@ -192,7 +163,7 @@ export default function Header() {
               </ul>
               <ul className={styles.burger__gallery_nav}>
                 <li className={styles.burger__gallery_link}>
-                  <Link href="/gallery/behind-the-red-line">
+                  <Link href="/series/behind-the-red-line">
                     <a
                       onClick={closeBurger}
                       className={`${styles.nav__link_a} ${styles.burger__gallery_link_a}`}
@@ -202,7 +173,7 @@ export default function Header() {
                   </Link>
                 </li>
                 <li className={styles.burger__gallery_link}>
-                  <Link href="/gallery/the-eidetics-of-burnout-syndrome">
+                  <Link href="/series/the-eidetics-of-burnout-syndrome">
                     <a
                       onClick={closeBurger}
                       className={`${styles.nav__link_a} ${styles.burger__gallery_link_a}`}
@@ -212,7 +183,7 @@ export default function Header() {
                   </Link>
                 </li>
                 <li className={styles.burger__gallery_link}>
-                  <Link href="/gallery/city-patchwork">
+                  <Link href="/series/city-patchwork">
                     <a
                       onClick={closeBurger}
                       className={`${styles.nav__link_a} ${styles.burger__gallery_link_a}`}
@@ -222,7 +193,7 @@ export default function Header() {
                   </Link>
                 </li>
                 <li className={styles.burger__gallery_link}>
-                  <Link href="/gallery/the-habitat">
+                  <Link href="/series/the-habitat">
                     <a
                       onClick={closeBurger}
                       className={`${styles.nav__link_a} ${styles.burger__gallery_link_a}`}
