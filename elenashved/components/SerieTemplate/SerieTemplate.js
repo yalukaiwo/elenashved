@@ -5,9 +5,8 @@ export default function SerieTemplate({ images, text, title }) {
   const [currentImage, setCurrentImage] = useState(0);
 
   const imagesJSX = images.map((el, index) => (
-    <div className={styles.image_holder}>
+    <div className={styles.image_holder} key={index}>
       <img
-        key={index}
         className={styles.images_item}
         alt="picture"
         src={el}
