@@ -1,9 +1,12 @@
-import Image from "next/image";
 import styles from "../../styles/Contact.module.scss";
+import Head from "next/head";
 
 export default function Contact() {
   return (
     <section className={styles.contact__wrapper}>
+      <Head>
+        <title>Contact</title>
+      </Head>
       <h2 className={styles.contact__title}>Contact me</h2>
       <div className={`${styles.contact}`}>
         <img src="/socials/instagram.png" width={20} height={20} />

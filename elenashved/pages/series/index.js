@@ -1,14 +1,18 @@
 import Link from "next/link";
 import styles from "../../styles/Series.module.scss";
+import Head from "next/head";
 
 export default function Publications() {
   return (
     <section className={styles.series__holder}>
+      <Head>
+        <title>Series</title>
+      </Head>
       <div className={styles.series__wrapper}>
         <div className={styles.series__item}>
           <img
             className={styles.series__image}
-            src="/images/brl/background.jpg"
+            src="/images/behind-the-red-line/background.jpg"
             alt="background"
           />
           <div className={styles.series__side}>
@@ -23,10 +27,10 @@ export default function Publications() {
               responsibility.{" "}
               <span className={styles.dn_1035}>
                 This topic had not been widely discussed until pandemia COVID-19
-                focused peoples&apos; attention on medical problems. This inspired me
-                to create «Behind the Red Line» series, which is dedicated to
-                the work in operating block, closed object, which entrance is
-                marked by the Red Line.
+                focused peoples&apos; attention on medical problems. This
+                inspired me to create «Behind the Red Line» series, which is
+                dedicated to the work in operating block, closed object, which
+                entrance is marked by the Red Line.
               </span>{" "}
               <span className={styles.dn_1280}>
                 Anyone who crosses this line, whether he is a patient or a
@@ -44,7 +48,7 @@ export default function Publications() {
         <div className={styles.series__item}>
           <img
             className={styles.series__image}
-            src="/images/brl/background.jpg"
+            src="/images/behind-the-red-line/background.jpg"
             alt="background"
           />
           <div className={styles.series__side}>
@@ -61,10 +65,10 @@ export default function Publications() {
               responsibility.{" "}
               <span className={styles.dn_1035}>
                 This topic had not been widely discussed until pandemia COVID-19
-                focused peoples&apos; attention on medical problems. This inspired me
-                to create «Behind the Red Line» series, which is dedicated to
-                the work in operating block, closed object, which entrance is
-                marked by the Red Line.
+                focused peoples&apos; attention on medical problems. This
+                inspired me to create «Behind the Red Line» series, which is
+                dedicated to the work in operating block, closed object, which
+                entrance is marked by the Red Line.
               </span>{" "}
               <span className={styles.dn_1280}>
                 Anyone who crosses this line, whether he is a patient or a
@@ -82,7 +86,7 @@ export default function Publications() {
         <div className={styles.series__item}>
           <img
             className={styles.series__image}
-            src="/images/brl/background.jpg"
+            src="/images/behind-the-red-line/background.jpg"
             alt="background"
           />
           <div className={styles.series__side}>
@@ -97,10 +101,10 @@ export default function Publications() {
               responsibility.{" "}
               <span className={styles.dn_1035}>
                 This topic had not been widely discussed until pandemia COVID-19
-                focused peoples&apos; attention on medical problems. This inspired me
-                to create «Behind the Red Line» series, which is dedicated to
-                the work in operating block, closed object, which entrance is
-                marked by the Red Line.
+                focused peoples&apos; attention on medical problems. This
+                inspired me to create «Behind the Red Line» series, which is
+                dedicated to the work in operating block, closed object, which
+                entrance is marked by the Red Line.
               </span>{" "}
               <span className={styles.dn_1280}>
                 Anyone who crosses this line, whether he is a patient or a
@@ -118,7 +122,7 @@ export default function Publications() {
         <div className={styles.series__item}>
           <img
             className={styles.series__image}
-            src="/images/brl/background.jpg"
+            src="/images/behind-the-red-line/background.jpg"
             alt="background"
           />
           <div className={styles.series__side}>
@@ -133,10 +137,10 @@ export default function Publications() {
               responsibility.{" "}
               <span className={styles.dn_1035}>
                 This topic had not been widely discussed until pandemia COVID-19
-                focused peoples&apos; attention on medical problems. This inspired me
-                to create «Behind the Red Line» series, which is dedicated to
-                the work in operating block, closed object, which entrance is
-                marked by the Red Line.
+                focused peoples&apos; attention on medical problems. This
+                inspired me to create «Behind the Red Line» series, which is
+                dedicated to the work in operating block, closed object, which
+                entrance is marked by the Red Line.
               </span>{" "}
               <span className={styles.dn_1280}>
                 Anyone who crosses this line, whether he is a patient or a

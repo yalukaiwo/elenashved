@@ -1,8 +1,12 @@
 import styles from "../../styles/About.module.scss";
+import Head from "next/head";
 
 export default function About() {
   return (
     <div className={styles.global__wrapper}>
+      <Head>
+        <title>About</title>
+      </Head>
       <div className={styles.about__wrapper}>
         <div className={styles.image__holder}>
           <img

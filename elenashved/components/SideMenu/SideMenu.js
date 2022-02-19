@@ -9,26 +9,26 @@ export default function SideMenu() {
         <div className={styles.gallery__holder}>
           <ul className={styles.gallery_nav}>
             <li className={styles.gallery_link}>
-              <Link href="/gallery/behind-the-red-line">
+              <Link href="/series/behind-the-red-line">
                 <a className={`${styles.gallery__link_a}`}>
                   Behind The Red Line
                 </a>
               </Link>
             </li>
             <li className={styles.gallery_link}>
-              <Link href="/gallery/the-eidetics-of-burnout-syndrome">
+              <Link href="/series/the-eidetics-of-burnout-syndrome">
                 <a className={`${styles.gallery__link_a}`}>
                   The Eidetics Of Burnout Syndrome
                 </a>
               </Link>
             </li>
             <li className={styles.gallery_link}>
-              <Link href="/gallery/city-patchwork">
+              <Link href="/series/city-patchwork">
                 <a className={`${styles.gallery__link_a}`}>City Patchwork</a>
               </Link>
             </li>
             <li className={styles.gallery_link}>
-              <Link href="/gallery/the-habitat">
+              <Link href="/series/the-habitat">
                 <a className={`${styles.gallery__link_a}`}>The Habitat</a>
               </Link>
             </li>
